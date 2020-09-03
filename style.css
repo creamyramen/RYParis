@@ -1,21 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@400;500&display=swap');
+.breakfast {
+    background-image: url("breakfast.jpg");
+}
 
-.breakfast {background-image: url("breakfast.jpg");}
-.lunch {background-image: url("vegetarian-ideas.jpg")}
-.dinner {background-image: url("dinner.jpeg")}
-.pepper {background-image: url("peppers.jpeg")}
-.muffins {background-image: url("muffins.jpeg")}
-.eggplant {background-image: url("eggplant.jpeg")}
-.chicken {background-image: url("chicken.jpeg")}
-.sandwich {background-image: url("borger.jpg")}
-.pizza {background-image: url("pizza.jpeg")}
-.veggies {background-image: url("eggplant-parmesan.jpg")}
-.food {background-image: url("hero.jpg")}
-.burger {background-image: url("burger.jpg")}
+.lunch {
+    background-image: url("vegetarian-ideas.jpg")
+}
+
+.dinner {
+    background-image: url("dinner.jpeg")
+}
+
+.pepper {
+    background-image: url("peppers.jpeg")
+}
+
+.muffins {
+    background-image: url("muffins.jpeg")
+}
+
+.eggplant {
+    background-image: url("eggplant.jpeg")
+}
+
+.chicken {
+    background-image: url("chicken.jpeg")
+}
+
+.sandwich {
+    background-image: url("borger.jpg")
+}
+
+.pizza {
+    background-image: url("pizza.jpeg")
+}
+
+.veggies {
+    background-image: url("eggplant-parmesan.jpg")
+}
+
+.food {
+    background-image: url("hero.jpg")
+}
+
+.burger {
+    background-image: url("burger.jpg")
+}
 
 body {
     margin: 0;
 }
+
 .header {
     background-color: #F1A536;
     display: flex;
@@ -27,7 +62,8 @@ body {
     height: 100px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Poppins';
     font-size: 2em;
 }
@@ -75,6 +111,7 @@ p {
     display: flex;
     justify-content: space-between;
 }
+
 .meal p {
     text-align: center;
     font-size: 1em;
@@ -183,7 +220,8 @@ h3 {
 
 .review p {
     margin: 0 0 0 1em;
-    display: inline;;
+    display: inline;
+    ;
 }
 
 .save {
@@ -195,7 +233,7 @@ h3 {
     background-color: #A63223;
     border-radius: 1em;
     height: 2em;
-    width:8em;
+    width: 8em;
     text-align: center;
 }
 
@@ -231,12 +269,13 @@ h3 {
     color: #222;
 }
 
-ul, ol {
+ul,
+ol {
     margin-left: 1em;
     padding: 0;
 }
 
-ol > :last-child {
+ol> :last-child {
     margin-left: .5em;
 }
 
@@ -255,7 +294,8 @@ ol li {
     justify-content: space-between;
 }
 
-.ingredients, .directions {
+.ingredients,
+.directions {
     width: 45vw;
 }
 
@@ -277,4 +317,16 @@ ol h4 {
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+}
+
+.news {
+    position: relative;
+    text-align: center;
+}
+
+.news .button {
+    position: absolute;
+    bottom: -50px;
+    left: calc(50% - 4em);
+    translate: (-50%);
 }
